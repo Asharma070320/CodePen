@@ -1,0 +1,117 @@
+.home_Container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #131417;
+    /* border: 1px solid red; */
+}
+.home_Left{
+    width: 13%;
+    height: 100%;
+    color: white;
+    background-color: #1E1F26;
+    position: relative;
+    transition: 1s ease-in-out;
+    /* border: 1px solid red; */
+}
+
+.close{
+    width: 1%;
+    height: 100%;
+    color: white;
+    background-color: #1E1F26;
+    position: relative;
+    transition:1s ease-in-out;
+    /* overflow: hidden; */
+}
+.hide{
+    overflow: hidden;
+    /* display: none; */
+}
+.togBtn{
+    width: 23px;
+    height: 20px;
+    position: absolute;
+    right: -18px;
+    top: 10px;
+    color: white;
+    background-color: #1E1F26;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.doubleLeft{
+    color: white;
+    margin-left: 4px;
+}
+#pad{
+    padding: 5px;
+    padding-left: 10px;
+}
+.home_Link{
+    text-decoration: none;
+}
+.home_startDiv{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.home_startDiv:hover{
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    transition: 0.1s ease-in-out;
+}
+
+.home_Right{
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    overflow-y: scroll;
+    justify-content: start;
+    align-items: start;
+    padding: 30px;
+    /* border: 2px solid red; */
+}
+.homeRight_top{
+    width: 100%;
+    display: flex;
+   
+}
+.homeinp_andIcon{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30,31,38);
+    gap: 10px;
+}
+.search_inIcon{
+    color: white;
+}
+.home_search{
+    width: 100%;
+    color: white;
+    background: transparent;
+    border: 0;
+    outline: 0;
+
+}
+.signUp_btn{
+    width: 100%;
+    padding: 9px;
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #10B981;
+}
+.signUp_btn:hover{
+    color: white;
+    background-color: rgb(43, 141, 76);
+    transition: 0.3s ease-in-out;
+}

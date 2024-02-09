@@ -1,0 +1,28 @@
+.alert_Container{
+    padding: 3px 2px;
+    border-radius: 5px;
+    background-color: #10B981;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.fixed_msg{
+    position: fixed;
+    top: 3.8rem;
+    right: 12px;
+    z-index: 10;
+}
+.success_alert_msg{
+    padding: 2px;
+    font-weight: 500;
+}
+.warn_alert_Container{
+        padding: 3px 2px;
+        border-radius: 5px;
+        background-color: yellow;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;   
+}
+.dan_alert_Container{ 
+        padding: 3px 2px;
+        border-radius: 5px;
+        background-color: red;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}

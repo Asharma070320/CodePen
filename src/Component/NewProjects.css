@@ -1,0 +1,213 @@
+.spliters{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* overflow: hidden; */
+    background-color: rgb(19,20,23);
+}
+.projects_container{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    /* overflow: hidden; */
+    background-color: rgb(19,20,23);
+    /* border: 2px solid red; */
+}
+.mini_projects{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 3rem; */
+    margin-top: 10px;
+    /* border: 2px solid red; */
+}
+.newprojectcontainer{
+    width: 30%;
+    /* border: ; */
+    /* border: 2px solid cyan; */
+}
+.headerHtml{
+    width: 27%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(40,44,52);
+    border-top: 3px solid grey;
+}
+.headerHtml:hover{
+    border-top: 3px solid #F75421;
+}
+.headerCss{
+    width: 21%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(40,44,52);
+    border-top: 3px solid grey;
+    /* border: 2px solid green; */
+}
+.headerCss:hover{
+    border-top: 3px solid #006CB4;
+}
+.headerJs{
+    width: 47%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(40,44,52);
+    border-top: 3px solid grey;
+    /* border: 2px solid green; */
+}
+.headerJs:hover{
+    border-top: 3px solid yellow;
+}
+.html_icon{
+    /* height: 100px; */
+    /* margin-left: 5px; */
+    font-size: 1.5rem;
+    /* border: 2px solid wheat; */
+}
+.bdii{
+    width: 30vw;
+}
+.white{
+    background: white;
+}
+
+.Project_nav{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 4px;
+    background-color: rgb(19,20,23);
+    border: 1px solid cyan;
+}
+
+.in_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.logoo{
+    width: 110px;
+    padding-top: 10px;
+    margin-left: 19px;
+    opacity: 90%;
+    border: 1px solid red;
+}
+
+.editProject_name{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+.in_edit_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.edit_para{
+    padding: 2px 2px;
+    color: white;
+
+}
+.input_edits{
+    padding: 2px 2px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid red;
+}
+
+.check_Icon{
+    color: #10B981;
+}
+.edit_icons{
+    color: rgb(255, 255, 255);
+}
+.follow_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    gap: 3px;
+}
+
+
+
+.newprojectHeadercontainer {
+    display: flex;
+    /* align-items: center; */
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.newprojectheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.newprojectlogo svg {
+    width: 100px;
+    
+}
+
+.newprojectsave button {
+   padding: 10px;
+   background-color: #C0D5E0;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-weight: bold;
+
+}
+
+.newprojecttitle {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap:10px;
+}
+
+.newprojecttitle input {
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    color: #C0D5E0;
+}
+
+.followbtn {
+    background-color: #10B981;
+    padding: 2px;
+    margin-left: 5px;
+    /* color: #1E1F26; */
+    cursor: pointer;
+}
+
+.newprojectsave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}

@@ -1,0 +1,146 @@
+.signUp_Container{
+    width: 100%;
+    height: 85vh;
+    /* border: 1px solid greenyellow; */
+}
+.small{
+    width: 100px;
+    padding-top: 10px;
+    opacity: 90%;
+}
+.mini_signup{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    color: white;
+    /* border: 1px solid white; */
+}
+.in_mini{
+    width: 100%;
+    /* height: 50vh; */
+    /* padding: 8; */
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8;
+    /* background-color: rgb(30,31,38); */
+}
+
+
+.userAuth_Container{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 2px;
+    padding: 15px;
+    background-color: rgb(30,31,38);
+    /* border: 2px solid cyan; */
+}
+.User_Email_Inp{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 2px;
+    gap: 7px;   
+    border-radius: 3px;
+    background: rgb(212, 213, 218);
+    /* border: 1px solid goldenrod; */
+}
+.user_password_inps{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 2px;
+    gap: 7px;   
+    /* color: black; */
+    border-radius: 3px;
+    background: rgb(212, 213, 218);
+}
+.msg_env{
+    margin-left: 4px;
+    color: black;
+    /* border: 1px solid white; */
+}
+.eye_icon{
+    cursor: pointer;
+}
+.UserAuth_inps{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: black;
+    /* font-weight: 550; */
+}
+
+.sign_eye{
+    margin-right: 5px;
+    color: black;
+}
+
+.btnSignUp{
+    width: 100%;
+    padding: 2px;
+    border-radius: 3px;
+    text-align: center;
+    background-color:   #10B981;
+    /* color: black; */
+    margin-top: 12px;
+    cursor: pointer;
+    /* border: 1px solid white; */
+}
+.have_account{
+    margin-top: 5px;
+    color: grey;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+.loginBtn{
+    color: #10B981;
+    cursor: pointer;
+}
+.or_center{
+    color: grey;
+    font-size: 13px;
+    margin-top: 8px;
+    text-align: center;
+}
+.google_container{
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: rgba(256, 256, 256, 0.2);
+    opacity: 0.7;
+}
+/* .google_container:hover{
+    opacity: 0.5;
+} */
+
+
+
+.googleIcon_Txt{
+    color: rgb(255, 255, 255);
+}
+
+.github_icon{
+    color: rgb(255, 255, 255);
+}

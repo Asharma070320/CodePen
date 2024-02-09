@@ -1,0 +1,84 @@
+.UserProfileDetails_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    /* border: 2px solid red; */
+}
+.box{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #10B981;
+    /* border: 2px solid red; */
+}
+.hover_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.UserProfileDetails_para{
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.dropArrow{
+    width: 35px;
+    height: 35px;
+    /* padding: 4px; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30,31,38);
+    cursor: pointer;
+}
+.arrow{
+    color: white;
+    font-weight: 600;
+}
+.down_section{
+    background-color: rgb(39, 40, 47);
+    position: absolute;
+    top: 42px;
+    right: 0px;
+    padding: 10px 7px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: center;
+    gap: 8px;
+    min-width: 100px;
+}
+.userLink{
+    color: rgba(256, 256, 256,0.5);
+    text-decoration: none;
+}
+.userLink:hover{
+    width: 100%;
+    border-radius: 5px;
+    color: white;  
+    background-color: rgb(79, 80, 87);
+}
+
+.userSignout{
+    cursor: pointer;
+    color: rgba(256, 256, 256,0.5);
+}
+.userSignout:hover{
+    width: 100%;
+    border-radius: 5px;
+    color: white;  
+    background-color: rgb(79, 80, 87);
+}
